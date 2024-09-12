@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(imagnes/tecnologia.gif);
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #calculadora {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  #display {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    
+  }
+  
+  #displayInput {
+    text-align: right;
+    width: 200%;
+    border: none;
+    color: #000;
+    
+  }
+  
+  #teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    height: 100px;
+    border: none;
+    font-size: 2em;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #9458c5;
+  }
+  
+  button:active {
+    background-color: 
+    #9458c5;
+  }
+  
+  button.num,
+  button.ponto,
+  button.igual {
+    color: #080000;
+  }
+  
+  button.operador {
+    color: #1b31f7;
+  }
+
+  .container img {
+    width:100px;
+    height:100px;
+    
+}
+.containerer img {
+  width:100px;
+  height:100px;
+  
+}
